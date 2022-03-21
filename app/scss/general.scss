@@ -1,11 +1,14 @@
 $myColor: #ffc011;
 $hoverColor: #ee9e0b;
+
 * {
 	font-family: "Source Sans Pro", sans-serif;
 }
+
 body {
 	background: linear-gradient(135deg, #3d3d3d, #000000);
 }
+
 .container {
 	position: relative;
 	max-width: 1140px;
@@ -13,10 +16,12 @@ body {
 	padding: 0 10px;
 	color: #ffffff;
 }
+
 .d-flex {
 	display: flex;
 	justify-content: space-between;
 }
+
 .header {
 	padding: 15px 10px;
 	background: linear-gradient(180deg, #020202, #505050);

@@ -51,7 +51,4 @@ linkClose.addEventListener('touchstart', function(event){
    if (event.target.closest('.menu__link')){
       closeMenu(), closeHam();
    }
-})
-
-//INITIALIZE AOS
-AOS.init();
+});
