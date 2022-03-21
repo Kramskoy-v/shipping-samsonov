@@ -1,0 +1,162 @@
+@media (max-width: 991px) {
+	.menu {
+		padding-left: 10px;
+		&__item {
+			&:not(:first-child) {
+				margin-left: 20px;
+			}
+		}
+		&__link {
+			font-size: 16px;
+		}
+	}
+
+	.promo {
+		&__title {
+				font-size: 36px;
+		}
+		&__desc {
+			max-width: 520px;
+			margin: 45px auto;
+		}
+	}
+	.autopark {
+		&__img {
+			max-width: 300px;
+			max-height: 200px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.header {
+		&__logo {
+			width: 180px;
+			top: 60px;
+		}
+		&__call {
+			&:last-child {
+				margin-left: 60px;
+			}
+		}
+	}
+	.menu {
+		position: absolute;
+		z-index: 12;
+		background-color: rgba(26, 26, 26, 0.959);
+		top: -10px;
+		left: -100%;
+		width: 80%;
+		height: 100vh;
+		transition: 0.7s;
+		&--active {
+			left: -10px;
+			transition: 0.7s;
+		}
+		&__list {
+			margin-top: 30px;
+			flex-direction: column;
+		}
+		&__link {
+			display: inline-block;
+			width: 100%;
+			margin-top: 30px;
+			text-align: center;
+			font-size: 22px;
+		}
+	}
+	.hamburger {
+		display: flex;
+	}
+	.container {
+		padding: 10px 25px;
+	}
+	.promo {
+		&__title {
+			font-size: 32px;
+		}
+	}
+	.features {
+		&__list {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__item {
+			max-width: 80%;
+			margin-top: 25px;
+		}
+		&__desc {
+			margin-top: 25px;
+		}
+	}
+	.autopark {
+		&__auto {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
+@media (max-width: 575px) {
+	.container {
+		padding: 15px;
+	}
+	.header {
+	
+		&__logo {
+			top: 150px;
+		}
+		&__contact {
+			display: flex;
+			flex-direction: column;
+		}
+		&__call {
+			max-width: 220px;
+			margin: 8px 0;
+			&:last-child {
+				margin-left: 0;
+			}
+		}
+	}
+	.promo {
+		&__d-flex {
+			flex-direction: column;
+		}
+		&__title {
+			font-size: 26px;
+		}
+	
+		&__desc{
+			margin-top: 0;
+		}
+	}
+	.features {
+		padding: 0;
+		&__item {
+			width: 100%;
+		}
+	}
+	.service {
+		&__items {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__item {
+			width: 80%;
+		}
+	}
+	.autopark {
+		&__auto {
+			margin: 30px 0;
+		}
+		&__img {
+			max-width: 180px;
+		}
+	}
+	.feed-form {
+		max-width: 250px;
+	}
+	.button {
+		max-width: 200px;
+		height: 55px;
+	}
+}
+
