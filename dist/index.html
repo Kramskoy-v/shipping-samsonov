@@ -17,8 +17,7 @@
 	<header class="header">
 
 		<div class="container d-flex">
-			<div class="header__logo">
-				<img src="img/logo.svg" alt="" class="header__img"></div>
+			<div class="header__logo"><img src="img/logo.svg" alt="" class="header__img"></div>
 			<nav class="menu">
 				<ul class="menu__list">
 					<li class="menu__item"><a href="#features" class="menu__link">Преимущества</a></li>
@@ -29,8 +28,8 @@
 			</nav>
 			<div class="header__contact">
 				<a href="tel:+79042145677" class="header__call" target="_blank">Позвонить</a>
-				<a href="https://api.whatsapp.com/send/?phone=+79042145677" class="header__call"
-					target="_blank">Написать в WhatsApp </a>
+				<a href="https://t.me/+79042145677" class="header__call"
+					target="_blank">Написать в Telegram</a>
 			</div>
 			<div class="hamburger">
 				<span></span>
@@ -57,7 +56,7 @@
 		<div class="container">
 			<h2 class="section-title">Преимущества рабаты с нашей компанией</h2>
 			<div class="features__list">
-				<div class="features__item" data-aos="fade-up"  data-aos-anchor-placement="top-center">
+				<div class="features__item" data-aos="fade-right"  data-aos-anchor-placement="top-center">
 					<img src="icons/quality.svg" alt="quality" class="features_ico">
 					<p class="features__desc">Более 10 лет опыта в грузоперевозках. Стабильная гарантия качества</p>
 				</div>
@@ -65,8 +64,8 @@
 					<img src="icons/speed_truck.svg" alt="speed_truck" class="features_ico">
 					<p class="features__desc">Быстрая и бережная доставка в сравнении с другими способами транспортироовки грузов </p>
 				</div>
-				<div class="features__item" data-aos="fade-up"  data-aos-anchor-placement="top-center">
-					<img src="icons/money.svg" alt="money" class="features_ico">
+				<div class="features__item" data-aos="fade-left"  data-aos-anchor-placement="top-center">
+					<img src="icony.svg" alt="money" class="features_ico">
 					<p class="features__desc">Оплата наличным или безналичный расчет. Отсрочка платежа для постоянных клиентов</p>
 				</div>
 			</div>
@@ -160,7 +159,7 @@
 	<section class="consult" id="consult">
 		<div class="container">
 			<h2 class="consult__title">Оставьте заявку на перевозку и мы вам перезвоним</h2>
-			<form class="feed-form" action="#" id="form" method="post" onsubmit="send(event, 'send.php')">
+			<form class="feed-form" action="#" id="form" method="post" onsubmit="send(event, 'send.php')" data-aos="fade-left"  data-aos-anchor-placement="bottom-bottom">
 				<input required="" placeholder="Ваше имя" type="text" name="username">
 				<input required="" placeholder="Ваш номер телефона" type="tel" pattern="[0-9]{7,11}" name="userphone">
 				<div class="checkbox">
