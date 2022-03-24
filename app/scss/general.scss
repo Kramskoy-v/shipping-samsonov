@@ -147,6 +147,7 @@ body {
 		justify-content: space-between;
 		margin-top: 50px;
 		padding: 20px 0;
+		overflow: hidden;
 	}
 
 	&__item {
@@ -182,6 +183,7 @@ body {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		overflow: hidden;
 	}
 
 	&__item {
@@ -202,6 +204,9 @@ body {
 }
 .autopark {
 	padding: 45px 0;
+	.container {
+		overflow: hidden;
+	}
 	&__auto {
 		display: flex;
 		justify-content: space-between;
